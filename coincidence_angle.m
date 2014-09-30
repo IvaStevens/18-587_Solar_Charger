@@ -10,6 +10,8 @@ function [ cosTI ] = coincidence_angle(day, ts, phi, gamma, B )
 % Output
 %   cosTI  = cosine of the angle of incidence (degrees)
 
+% demonstrating push
+
 % delta = sun declintion
 delta = asind(sind(23.45)*sind((360/365)*(day-81)));
 
